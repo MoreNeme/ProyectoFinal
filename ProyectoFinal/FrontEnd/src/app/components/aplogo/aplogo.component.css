@@ -1,10 +1,11 @@
 .container{
     display: flex;
     justify-content: space-between;
-    align-items: column;
+    align-items:column;
 }
 .redes{
-    margin-right: 0.5em;
+    margin-left: 650px;
+    
 }
 #APLogo{
     width: 150px;
