@@ -1,13 +1,14 @@
 .container{
     display: flex;
     justify-content: space-between;
-    align-items:column;
+    align-items: center;
 }
+
 .redes{
-    margin-left: 650px;
+    margin-right: 0.5em;
     
 }
-#APLogo{
+ #APLogo{
     width: 150px;
 }
 img{
@@ -17,16 +18,20 @@ img{
     border-width: medium;
 }
 /*--- Para la vista de celular---*/
-.container{
-    flex-direction: column;
+@media(max width:575px){
+    .container{
+        flex-direction: column;
+    
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .redes img{
+        margin: 0.5em;
+    
+    }
 
 }
-.redes{
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
-}
-.redes img{
-    margin: 0.5em;
 
-}
